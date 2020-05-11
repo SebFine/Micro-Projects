@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Project Dice</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="app.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <label for="dices">Choose a dice:</label><br>
+            <select id="dice" name="dices">
+                <option value="4">W4</option>
+                <option value="6" selected="selected">W6</option>
+                <option value="8">W8</option>
+                <option value="10">W10</option>
+                <option value="20">W20</option>
+                <option value="48">W48</option>
+                <option value="120">W120</option>
+            </select><br>
+        <button id=roll>Roll!</button><br>
+        <h1 id="result">Roll the dice first!</h1>
+    </div>
+    <script src="dice.js"></script>
+</body>
+</html>
