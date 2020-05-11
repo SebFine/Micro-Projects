@@ -1,27 +1,34 @@
 <!-- Title — What is your app/project called? -->
-**Micro Projects**
+**Title: Simple PW validator**
 <!-- Overview — Why did you start this project? -->
 **Overview:**
 
-A folder for all smallprojects that are more for learning than to use or display.
+Basic, non production grade PW validator. Exercise, no code along, from Modern JS Bootcamp by Colt Steele.
 <!-- Features — What are some key things your project can do? -->
 **Features:**
 
-- Dice: Is a dice simulation with differnet dice types and settings. Suitable for D&D and DSA.
+- **Password validation for**
+- at least 8 characters
+- no space
+- no username included
+
+- **Visual and Extras:**
+- state: red and green border colors for feedback
+- info text if password is not ok
+- return key functionality
+
 
 <!-- Running the project — How could someone else get your code working for them? -->
 **Running the project** 
 
-Just open the according .html in your browser
+Just open the valid.html in your browser
 <!-- Dependencies — What are the main outside resources your project needs to run? -->
 **Dependencies**
 
 Internet Browser
 
-<!--  **ToDo List**-->
-
-
+<!--**ToDo List**-->
 
 <!-- **Contributors**-->
 
-<!-- **Ways to contribute**  -->
+<!--**Ways to contribute** -->

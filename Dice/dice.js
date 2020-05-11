@@ -18,7 +18,7 @@ function getThrows() {
 // Create a random number based on diceChoice
 function randomSide(sides, throws) {
     const arr = [];
-    for (i = 1; i <= throws; i++) {
+    for (let i = 1; i <= throws; i++) {
         random = Math.floor(Math.random() * sides) + 1;
         arr.push(random);
     }
