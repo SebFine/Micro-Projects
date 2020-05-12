@@ -27,9 +27,10 @@ function randomSide(sides, throws) {
 
 // find out the sum of the array items
 function add(arr) {
-    for (const el of arr) {
-        sum += arr[i];
-    }
+    sum = 0;
+    arr.forEach(element => {
+        sum += element;
+    }); 
     return sum;
 };
 
@@ -40,7 +41,7 @@ function roll() {
     const arr = randomSide(sides, throws);
     const sum = add(arr);
     displayResultSum.textContent = sum;
-    displayResultSum.textContent = arr.join(", ");
+    displayResultArr.textContent = arr.join(", ");
 };
 
 // event listener for roll Button and dice choice.
