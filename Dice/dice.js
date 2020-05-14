@@ -11,7 +11,7 @@ function getValues() {
 };
 
 function getThrows() {
-    throws = Number(throwsBox.value); // froms always return strings
+    throws = Number(throwsBox.value); // forms always return strings
     return throws;
 };
 

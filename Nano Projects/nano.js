@@ -49,3 +49,20 @@ function getCard() {
     }
     return card;
 }
+
+// testing and understanding scope
+
+function test() {
+    let ding = 12;
+    let ding2 = 43
+
+    function test2 () {
+        console.log(ding);
+
+        function test3 () {
+            console.log(ding2);
+        };
+        test3();
+    }; 
+    test2();
+};
