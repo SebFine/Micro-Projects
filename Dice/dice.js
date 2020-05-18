@@ -16,8 +16,8 @@ function getThrows() {
 };
 
 // Create a random number based on diceChoice
-function randomSide(sides, throws) {
-    const arr = [];
+function randomSide(sides, throws) { 
+    const arr = []; // use .map next time
     for (let i = 1; i <= throws; i++) {
         random = Math.floor(Math.random() * sides) + 1;
         arr.push(random);
